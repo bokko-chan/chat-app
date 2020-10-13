@@ -1,4 +1,8 @@
 <div class="wrapper">
-  <%= render "side_bar" %>  <%# 部分テンプレートの読み込みなので、ファイル名先頭の「_」や拡張子は必要ないことに注意%>
-  <%= render "main_chat" %>
+  <div class="side-bar">
+    <%= render "side_bar" %>  <%# 部分テンプレートの読み込みなので、ファイル名先頭の「_」や拡張子は必要ないことに注意%>
+  </div>
+  <div class="chat">
+    <%= render "main_chat" %>
+  </div>
 </div>
